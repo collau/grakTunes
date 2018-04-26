@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		338C622520923849009FFE47 /* an.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 338C622420923849009FFE47 /* an.mp3 */; };
+		338C622720923857009FFE47 /* kang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 338C622620923857009FFE47 /* kang.mp3 */; };
+		338C622920923B68009FFE47 /* bite.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 338C622820923B68009FFE47 /* bite.mp3 */; };
+		338C622B20923BAA009FFE47 /* gw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 338C622A20923BAA009FFE47 /* gw.mp3 */; };
+		338C622D20923C12009FFE47 /* houbu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 338C622C20923C11009FFE47 /* houbu.mp3 */; };
+		338C622F20923C1C009FFE47 /* baoda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 338C622E20923C1C009FFE47 /* baoda.mp3 */; };
+		338C623120923ECD009FFE47 /* chicken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 338C623020923ECD009FFE47 /* chicken.jpg */; };
+		338C623320923F3B009FFE47 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 338C623220923F3B009FFE47 /* cat.jpg */; };
+		338C623720924017009FFE47 /* wonders.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 338C623620924016009FFE47 /* wonders.jpg */; };
+		33B6EADE2090E87800D18E2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6EADD2090E87800D18E2A /* AppDelegate.swift */; };
+		33B6EAE02090E87800D18E2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6EADF2090E87800D18E2A /* ViewController.swift */; };
+		33B6EAE32090E87800D18E2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B6EAE12090E87800D18E2A /* Main.storyboard */; };
+		33B6EAE52090E87F00D18E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B6EAE42090E87F00D18E2A /* Assets.xcassets */; };
+		33B6EAE82090E87F00D18E2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B6EAE62090E87F00D18E2A /* LaunchScreen.storyboard */; };
+		33B6EAF32090E87F00D18E2A /* grakTunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6EAF22090E87F00D18E2A /* grakTunesTests.swift */; };
+		33B6EAFE2090E87F00D18E2A /* grakTunesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6EAFD2090E87F00D18E2A /* grakTunesUITests.swift */; };
+		33B6EB0F2090E96B00D18E2A /* chi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33B6EB0C2090E96A00D18E2A /* chi.mp3 */; };
+		33B6EB102090E96B00D18E2A /* pong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33B6EB0D2090E96B00D18E2A /* pong.mp3 */; };
+		33B6EB112090E96B00D18E2A /* hu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33B6EB0E2090E96B00D18E2A /* hu.mp3 */; };
+		33B6EB132090E97E00D18E2A /* MusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6EB122090E97E00D18E2A /* MusicController.swift */; };
+		33EF71C220920097005F647F /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EF71C120920097005F647F /* MyButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33B6EAEF2090E87F00D18E2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33B6EAD22090E87700D18E2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33B6EAD92090E87700D18E2A;
+			remoteInfo = grakTunes;
+		};
+		33B6EAFA2090E87F00D18E2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33B6EAD22090E87700D18E2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33B6EAD92090E87700D18E2A;
+			remoteInfo = grakTunes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		338C622420923849009FFE47 /* an.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = an.mp3; sourceTree = "<group>"; };
+		338C622620923857009FFE47 /* kang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kang.mp3; sourceTree = "<group>"; };
+		338C622820923B68009FFE47 /* bite.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bite.mp3; sourceTree = "<group>"; };
+		338C622A20923BAA009FFE47 /* gw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gw.mp3; sourceTree = "<group>"; };
+		338C622C20923C11009FFE47 /* houbu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = houbu.mp3; sourceTree = "<group>"; };
+		338C622E20923C1C009FFE47 /* baoda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = baoda.mp3; sourceTree = "<group>"; };
+		338C623020923ECD009FFE47 /* chicken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chicken.jpg; sourceTree = "<group>"; };
+		338C623220923F3B009FFE47 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
+		338C623620924016009FFE47 /* wonders.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wonders.jpg; path = ../../../../grak/wonders.jpg; sourceTree = "<group>"; };
+		33B6EADA2090E87700D18E2A /* grakTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grakTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B6EADD2090E87800D18E2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33B6EADF2090E87800D18E2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33B6EAE22090E87800D18E2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33B6EAE42090E87F00D18E2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33B6EAE72090E87F00D18E2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33B6EAE92090E87F00D18E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33B6EAEE2090E87F00D18E2A /* grakTunesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = grakTunesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B6EAF22090E87F00D18E2A /* grakTunesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grakTunesTests.swift; sourceTree = "<group>"; };
+		33B6EAF42090E87F00D18E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33B6EAF92090E87F00D18E2A /* grakTunesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = grakTunesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B6EAFD2090E87F00D18E2A /* grakTunesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grakTunesUITests.swift; sourceTree = "<group>"; };
+		33B6EAFF2090E87F00D18E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33B6EB0C2090E96A00D18E2A /* chi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chi.mp3; sourceTree = "<group>"; };
+		33B6EB0D2090E96B00D18E2A /* pong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pong.mp3; sourceTree = "<group>"; };
+		33B6EB0E2090E96B00D18E2A /* hu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hu.mp3; sourceTree = "<group>"; };
+		33B6EB122090E97E00D18E2A /* MusicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicController.swift; sourceTree = "<group>"; };
+		33EF71C120920097005F647F /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33B6EAD72090E87700D18E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B6EAEB2090E87F00D18E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B6EAF62090E87F00D18E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33B6EAD12090E87700D18E2A = {
+			isa = PBXGroup;
+			children = (
+				33B6EADC2090E87700D18E2A /* grakTunes */,
+				33B6EAF12090E87F00D18E2A /* grakTunesTests */,
+				33B6EAFC2090E87F00D18E2A /* grakTunesUITests */,
+				33B6EADB2090E87700D18E2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33B6EADB2090E87700D18E2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33B6EADA2090E87700D18E2A /* grakTunes.app */,
+				33B6EAEE2090E87F00D18E2A /* grakTunesTests.xctest */,
+				33B6EAF92090E87F00D18E2A /* grakTunesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33B6EADC2090E87700D18E2A /* grakTunes */ = {
+			isa = PBXGroup;
+			children = (
+				33B6EB0B2090E94D00D18E2A /* tunes */,
+				33B6EADD2090E87800D18E2A /* AppDelegate.swift */,
+				33B6EADF2090E87800D18E2A /* ViewController.swift */,
+				33B6EAE12090E87800D18E2A /* Main.storyboard */,
+				33B6EAE42090E87F00D18E2A /* Assets.xcassets */,
+				33B6EAE62090E87F00D18E2A /* LaunchScreen.storyboard */,
+				33B6EAE92090E87F00D18E2A /* Info.plist */,
+				33B6EB122090E97E00D18E2A /* MusicController.swift */,
+				33EF71C120920097005F647F /* MyButton.swift */,
+			);
+			path = grakTunes;
+			sourceTree = "<group>";
+		};
+		33B6EAF12090E87F00D18E2A /* grakTunesTests */ = {
+			isa = PBXGroup;
+			children = (
+				33B6EAF22090E87F00D18E2A /* grakTunesTests.swift */,
+				33B6EAF42090E87F00D18E2A /* Info.plist */,
+			);
+			path = grakTunesTests;
+			sourceTree = "<group>";
+		};
+		33B6EAFC2090E87F00D18E2A /* grakTunesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33B6EAFD2090E87F00D18E2A /* grakTunesUITests.swift */,
+				33B6EAFF2090E87F00D18E2A /* Info.plist */,
+			);
+			path = grakTunesUITests;
+			sourceTree = "<group>";
+		};
+		33B6EB0B2090E94D00D18E2A /* tunes */ = {
+			isa = PBXGroup;
+			children = (
+				338C623620924016009FFE47 /* wonders.jpg */,
+				338C623220923F3B009FFE47 /* cat.jpg */,
+				338C623020923ECD009FFE47 /* chicken.jpg */,
+				338C622E20923C1C009FFE47 /* baoda.mp3 */,
+				338C622C20923C11009FFE47 /* houbu.mp3 */,
+				338C622A20923BAA009FFE47 /* gw.mp3 */,
+				338C622820923B68009FFE47 /* bite.mp3 */,
+				338C622620923857009FFE47 /* kang.mp3 */,
+				338C622420923849009FFE47 /* an.mp3 */,
+				33B6EB0C2090E96A00D18E2A /* chi.mp3 */,
+				33B6EB0E2090E96B00D18E2A /* hu.mp3 */,
+				33B6EB0D2090E96B00D18E2A /* pong.mp3 */,
+			);
+			path = tunes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33B6EAD92090E87700D18E2A /* grakTunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B6EB022090E87F00D18E2A /* Build configuration list for PBXNativeTarget "grakTunes" */;
+			buildPhases = (
+				33B6EAD62090E87700D18E2A /* Sources */,
+				33B6EAD72090E87700D18E2A /* Frameworks */,
+				33B6EAD82090E87700D18E2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = grakTunes;
+			productName = grakTunes;
+			productReference = 33B6EADA2090E87700D18E2A /* grakTunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33B6EAED2090E87F00D18E2A /* grakTunesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B6EB052090E87F00D18E2A /* Build configuration list for PBXNativeTarget "grakTunesTests" */;
+			buildPhases = (
+				33B6EAEA2090E87F00D18E2A /* Sources */,
+				33B6EAEB2090E87F00D18E2A /* Frameworks */,
+				33B6EAEC2090E87F00D18E2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33B6EAF02090E87F00D18E2A /* PBXTargetDependency */,
+			);
+			name = grakTunesTests;
+			productName = grakTunesTests;
+			productReference = 33B6EAEE2090E87F00D18E2A /* grakTunesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33B6EAF82090E87F00D18E2A /* grakTunesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B6EB082090E87F00D18E2A /* Build configuration list for PBXNativeTarget "grakTunesUITests" */;
+			buildPhases = (
+				33B6EAF52090E87F00D18E2A /* Sources */,
+				33B6EAF62090E87F00D18E2A /* Frameworks */,
+				33B6EAF72090E87F00D18E2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33B6EAFB2090E87F00D18E2A /* PBXTargetDependency */,
+			);
+			name = grakTunesUITests;
+			productName = grakTunesUITests;
+			productReference = 33B6EAF92090E87F00D18E2A /* grakTunesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33B6EAD22090E87700D18E2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = junyi;
+				TargetAttributes = {
+					33B6EAD92090E87700D18E2A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					33B6EAED2090E87F00D18E2A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 33B6EAD92090E87700D18E2A;
+					};
+					33B6EAF82090E87F00D18E2A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 33B6EAD92090E87700D18E2A;
+					};
+				};
+			};
+			buildConfigurationList = 33B6EAD52090E87700D18E2A /* Build configuration list for PBXProject "grakTunes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33B6EAD12090E87700D18E2A;
+			productRefGroup = 33B6EADB2090E87700D18E2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33B6EAD92090E87700D18E2A /* grakTunes */,
+				33B6EAED2090E87F00D18E2A /* grakTunesTests */,
+				33B6EAF82090E87F00D18E2A /* grakTunesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33B6EAD82090E87700D18E2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338C622B20923BAA009FFE47 /* gw.mp3 in Resources */,
+				33B6EAE82090E87F00D18E2A /* LaunchScreen.storyboard in Resources */,
+				33B6EB102090E96B00D18E2A /* pong.mp3 in Resources */,
+				338C623720924017009FFE47 /* wonders.jpg in Resources */,
+				338C623120923ECD009FFE47 /* chicken.jpg in Resources */,
+				338C622D20923C12009FFE47 /* houbu.mp3 in Resources */,
+				338C622920923B68009FFE47 /* bite.mp3 in Resources */,
+				338C622520923849009FFE47 /* an.mp3 in Resources */,
+				338C622F20923C1C009FFE47 /* baoda.mp3 in Resources */,
+				33B6EB0F2090E96B00D18E2A /* chi.mp3 in Resources */,
+				33B6EB112090E96B00D18E2A /* hu.mp3 in Resources */,
+				33B6EAE52090E87F00D18E2A /* Assets.xcassets in Resources */,
+				33B6EAE32090E87800D18E2A /* Main.storyboard in Resources */,
+				338C623320923F3B009FFE47 /* cat.jpg in Resources */,
+				338C622720923857009FFE47 /* kang.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B6EAEC2090E87F00D18E2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B6EAF72090E87F00D18E2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33B6EAD62090E87700D18E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B6EAE02090E87800D18E2A /* ViewController.swift in Sources */,
+				33B6EADE2090E87800D18E2A /* AppDelegate.swift in Sources */,
+				33B6EB132090E97E00D18E2A /* MusicController.swift in Sources */,
+				33EF71C220920097005F647F /* MyButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B6EAEA2090E87F00D18E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B6EAF32090E87F00D18E2A /* grakTunesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B6EAF52090E87F00D18E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B6EAFE2090E87F00D18E2A /* grakTunesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33B6EAF02090E87F00D18E2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33B6EAD92090E87700D18E2A /* grakTunes */;
+			targetProxy = 33B6EAEF2090E87F00D18E2A /* PBXContainerItemProxy */;
+		};
+		33B6EAFB2090E87F00D18E2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33B6EAD92090E87700D18E2A /* grakTunes */;
+			targetProxy = 33B6EAFA2090E87F00D18E2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33B6EAE12090E87800D18E2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33B6EAE22090E87800D18E2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33B6EAE62090E87F00D18E2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33B6EAE72090E87F00D18E2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33B6EB002090E87F00D18E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33B6EB012090E87F00D18E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33B6EB032090E87F00D18E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRUX4GSB8F;
+				INFOPLIST_FILE = grakTunes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junyi.grakTunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33B6EB042090E87F00D18E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRUX4GSB8F;
+				INFOPLIST_FILE = grakTunes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junyi.grakTunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33B6EB062090E87F00D18E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRUX4GSB8F;
+				INFOPLIST_FILE = grakTunesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junyi.grakTunesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grakTunes.app/grakTunes";
+			};
+			name = Debug;
+		};
+		33B6EB072090E87F00D18E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRUX4GSB8F;
+				INFOPLIST_FILE = grakTunesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junyi.grakTunesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grakTunes.app/grakTunes";
+			};
+			name = Release;
+		};
+		33B6EB092090E87F00D18E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRUX4GSB8F;
+				INFOPLIST_FILE = grakTunesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junyi.grakTunesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = grakTunes;
+			};
+			name = Debug;
+		};
+		33B6EB0A2090E87F00D18E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRUX4GSB8F;
+				INFOPLIST_FILE = grakTunesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junyi.grakTunesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = grakTunes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33B6EAD52090E87700D18E2A /* Build configuration list for PBXProject "grakTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B6EB002090E87F00D18E2A /* Debug */,
+				33B6EB012090E87F00D18E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B6EB022090E87F00D18E2A /* Build configuration list for PBXNativeTarget "grakTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B6EB032090E87F00D18E2A /* Debug */,
+				33B6EB042090E87F00D18E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B6EB052090E87F00D18E2A /* Build configuration list for PBXNativeTarget "grakTunesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B6EB062090E87F00D18E2A /* Debug */,
+				33B6EB072090E87F00D18E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B6EB082090E87F00D18E2A /* Build configuration list for PBXNativeTarget "grakTunesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B6EB092090E87F00D18E2A /* Debug */,
+				33B6EB0A2090E87F00D18E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33B6EAD22090E87700D18E2A /* Project object */;
+}
